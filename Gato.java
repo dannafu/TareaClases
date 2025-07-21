@@ -34,7 +34,7 @@ public class Gato{
     public void buscarPollito() {
         Random pollito = new Random(); //Para obtener valores random
         int pollitosEncontrados = 0;
-        for (int i = 0; i < 3; i++) { // Intenta buscar 2 veces
+        for (int i = 0; i < 2; i++) { // Intenta buscar 2 veces
             if (pollito.nextBoolean()) { // 50% de probabilidad de encontrar un pollito porque puede ser False o True
                 vidas=vidas+1;
                 pollitosEncontrados=pollitosEncontrados+1;
